@@ -1,0 +1,15 @@
+//to print multiplication table of any number.
+#include <stdio.h>
+
+int main()
+{
+   int i , n,multiple;
+   printf("enter the number till which the multiple table is needed :\n");
+   scanf("%d",&n);
+   for(i=1;i<=n;i++)
+   {
+    printf("%d * %d = %d \n", n, i, n * i);   
+   }   
+       return 0;
+       
+}
