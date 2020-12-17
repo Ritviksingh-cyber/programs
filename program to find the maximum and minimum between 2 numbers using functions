@@ -30,14 +30,5 @@ else
 {
     return(n2);
 }
- 
- double getCircumference(double radius)
-{
-    return (2 * M_PI * radius); // PI = 3.14
-}
-
-double getArea(double radius)
-{
-    return (M_PI * radius * radius); // PI = 3.14
 }
 }
