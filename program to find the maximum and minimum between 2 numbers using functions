@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <math.h>
+#include <conio.h> 
+
+double greater(double n1,double n2);
+
+void main()
+{
+    float n1,n2,bigger;
+   
+  
+    printf("Enter the first number: ");
+    scanf("%f", &n1);
+    printf("enter the second number: ");
+    scanf("%f",&n2);
+    bigger  = greater(n1,n2);      
+ 
+    printf("the greater number is = %.2f \n", bigger);
+ 
+    getch();
+}
+ 
+double greater(double n1,double n2)
+{
+    if(n1>n2)
+{
+    return (n1);
+}
+else
+{
+    return(n2);
+}
+ 
+ double getCircumference(double radius)
+{
+    return (2 * M_PI * radius); // PI = 3.14
+}
+
+double getArea(double radius)
+{
+    return (M_PI * radius * radius); // PI = 3.14
+}
+}
